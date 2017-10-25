@@ -1,0 +1,61 @@
+body{
+	background-color: #343a40;
+	color: #eee;
+}
+
+.modal{
+	color: #212529;
+}
+
+.nav-tabs .nav-link.active {
+	color: #eee;
+	background-color: #343a40;
+	border-color: #ddd #ddd #fff;
+}
+
+a{
+	color: #eee;
+}
+
+a:hover{
+	color: #ccc;
+}
+
+.form-control-plaintext{
+	font-weight:700;
+	font-size: 1.35rem;
+	color: #eee;
+	width: 100%;
+	background-color: transparent;
+}
+
+.frm-personal{
+	font-weight:700;
+	font-size: 1.35rem;
+	color: #eee;
+	background-color: transparent;
+	border: 1px solid #fff;
+}
+
+.frm-personal:focus {
+    color: #eee;
+    background-color: transparent;
+    border-color: #fff;
+}
+
+.btn-outline-light:hover {
+    color: #343a40;
+}
+
+.btn-outline-light:disabled {
+    color: #ddd !important;
+}
+
+.btn-link {
+    color: #bbb !important;
+}
+
+.contador-equipo{
+	border: 1px solid #a1a1a1; 
+	border-radius: 5px;
+}
