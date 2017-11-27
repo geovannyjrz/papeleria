@@ -71,8 +71,9 @@ $(function(){
 		if(MontoInternet<=16){
 			MontoInternet = 2;
 		}else{
-			MontoInternet = Math.round(MontoInternet * .15);
-			MontoInternet = parseFloat(MontoInternet);
+			MontoInternet = 2*(MontoInternet * .15)
+			MontoInternet = Math.round(MontoInternet);
+			MontoInternet = parseFloat(MontoInternet/2);
 		}
 		
 		if($("#txt-extras"+nid).val() != ""){
